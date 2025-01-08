@@ -1,0 +1,29 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topico.css");
+@import url("styles/contato.css");
+@import url("styles/footer.css");
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+
+:root {
+    --cor-de-fundo: #d3d3d3;
+    --branco: #FFFFFF;
+    --amarelo: #f4f440;
+    --amarelo-ovo: #fbfbb4;
+    --cinza-escuro: #6c6c6c;
+    --titulo: "Oswald";
+    --texto: "Crimson Text";
+    --fonte: "Playwrite"
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+}
+
+h1 {
+    
+    background-color:#f6f6f6;
+}

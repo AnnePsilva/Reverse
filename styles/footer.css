@@ -1,0 +1,12 @@
+hr {
+    margin: 0;
+}
+
+.rodapé {
+    background-color: var(--branco);
+    padding: 1em;
+    font-size: 16px;
+    font-weight: 200;
+    font-family: var(--titulo);
+    text-align: center;
+}

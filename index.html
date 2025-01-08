@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverse</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="Cabeçalho">
+        <div class="container">
+            <input  type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+                <span class="Cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias de Estilos</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Frases</a></li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Abstratos</a></li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Signos</a></li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Heróis</a></li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Originais</a></li>
+            </ul>
+            <img src="Icones/logo.svg" class="container__imagem container__imagem--logo" alt="Logo da Reverse" width="38px" height="38px">
+            <h1 class="container__titulo">Reverse</h1>
+            </div>
+
+            <ul class="opções">
+                <input type="checkbox" id="opções-menu" class="opções__botão">
+                <label for="opções-menu" class="opções__rotulo">
+                    <li class="opções__item">Categorias</li>
+                </label>
+
+                <ul class="lista-menu">
+
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Frases</a></li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Abstratos</a></li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Signos</a></li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Heróis</a></li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Originais</a></li>
+                </ul>
+        
+                <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+                <li class="opções__item"><a href="#" class="opções__link">Minha Sacola</a></li>
+            </ul>
+        <div class="container">
+             <a href="#">
+                <img src="Icones/Favoritos.svg" class="container__imagem container__imagem-coração" alt="Meus Favoritos">
+            </a>
+             <a href="#" class="container__link">
+                <img src="Icones/Compras.svg" class="container__imagem" alt="Carrinho de Compras">
+                <p class="container__texto">Minha Sacola</p>
+            </a>
+             <a href="#" class="container__link">
+                <img src="Icones/Usuário.svg" class="container__imagem" alt="Meu Perfil">
+                <p class="container__texto">Meu Perfil</p>
+            </a>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo">Eleve seu estilo!</h2>
+        <p class="banner__texto">Mantenha a calma e escolha as Camisas que combinam com seu mood.</p>
+        <input type="search" class="banner__pesquisa" placeholder="O que você Procura?">
+    </section>
+
+
+    <section class="carrossel">
+        <h2 class="carrossel_titulo">Novos Lançamentos</h2>
+                                <!-- Slider main container -->
+                        <div class="carrossel__container">
+                        <div class="swiper">
+                            <!-- Additional required wrapper -->
+
+                            <!-- If we need pagination -->
+                            <div class="swiper-pagination"></div>
+
+                            <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide"><img src="IMG/Lançamentos/abstrato.svg" alt="Camisa abstrata"></div>
+                            <div class="swiper-slide"><img src="IMG/Lançamentos/Frase.svg" alt="Camisa com Frase"></div>
+                            <div class="swiper-slide"><img src="IMG/Lançamentos/heroi.svg" alt="Camisa com heroi"></div>
+                            <div class="swiper-slide"><img src="IMG/Lançamentos/original.svg" alt="Camisa com desenho original"></div>
+                            <div class="swiper-slide"><img src="IMG/Lançamentos/Signo.svg" alt="Camisa do Signo"></div>
+                            ...
+                            </div>
+                       
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        
+                        </div>
+
+
+            <div class="card">
+                <!-- 1 linha -->
+                        <div class="card__descrição">
+                            <!-- 1 coluna -->
+                            <div class="descrição">
+                                <h3 class="descrição__titulo">Talvez você goste deste estilo</h3>
+                                <h2 class="descrição__titulo-camisa">Camisa com desenho Original</h2>
+                                <p class="descrição__texto">Com um desenho e uma camisa você cria o seu jeito de se vestir</p>
+                            </div>
+                            <!-- 2 coluna -->
+                            <img src="IMG/originais/Original1.svg" class="descrição__imagem" alt="Camisa com estampa desenhada">
+                        </div>
+
+                        <!-- 2 linha -->
+                        <div class="card__botões">
+                            <!-- 1 coluna -->
+                            <ul class="botões">
+                                <li class="botões__item"><img src="Icones/Favoritos.svg" alt="Favoritar"></li>
+                                <li class="botões__item"><img src="Icones/Compras.svg" alt="Adicionar ao carrinho"></li>
+                            </ul>
+                            <!-- 2 coluna -->
+                            <a href="#" class="botões__ancora">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            </section>
+
+
+
+            <section class="carrossel">
+                <h2 class="carrossel_titulo">Nossos Modelos</h2>
+                                        <!-- Slider main container -->
+                                <div class="carrossel__container">
+                                <div class="swiper">
+                                    <!-- Additional required wrapper -->
+
+                                    <!-- If we need pagination -->
+                                    <div class="swiper-pagination"></div>
+
+                                    <div class="swiper-wrapper">
+                                    <!-- Slides -->
+                                    <div class="swiper-slide"><img src="IMG/Modelos/modelo0.svg" alt="Modelo de Camisa"></div>
+                                    <div class="swiper-slide"><img src="IMG/Modelos/modelo1.svg" alt="Modelo de Camisa"></div>
+                                    <div class="swiper-slide"><img src="IMG/Modelos/modelo2.svg" alt="Modelo de Camisa"></div>
+                                    <div class="swiper-slide"><img src="IMG/Modelos/modelo3.svg" alt="Modelo de Camisa"></div>
+                                    <div class="swiper-slide"><img src="IMG/Modelos/modelo4.svg" alt="Modelo de Camisa"></div>
+                                    ...
+                                    </div>
+                            
+                                    <!-- If we need navigation buttons -->
+                                    <div class="swiper-button-prev"></div>
+                                    <div class="swiper-button-next"></div>
+                                
+                                </div>
+
+
+                    <div class="card">
+                        <!-- 1 linha -->
+                        <div class="card__descrição">
+                            <!-- 1 coluna -->
+                            <div class="descrição">
+                                <h3 class="descrição__titulo">Talvez você prefira este Modelo</h3>
+                                <h2 class="descrição__titulo-camisa">Modelo padrão da loja</h2>
+                                <p class="descrição__texto">Com um modelo de camisa único você cria o seu jeito de se vestir</p>
+                            </div>
+                            <!-- 2 coluna -->
+                            <img src="IMG/Modelos/modelo0.svg" class="descrição__imagem" alt="Modelo principal">
+                        </div>
+
+                        <!-- 2 linha -->
+                        <div class="card__botões">
+                            <!-- 1 coluna -->
+                            <ul class="botões">
+                                <li class="botões__item"><img src="Icones/Favoritos.svg" alt="Favoritar"></li>
+                                <li class="botões__item"><img src="Icones/Compras.svg" alt="Adicionar ao carrinho"></li>
+                            </ul>
+                            <!-- 2 coluna -->
+                            <a href="#" class="botões__ancora">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+                <section class="tópicos" >
+                    <h2 class="tópico__titulo">TÓPICOS MAIS VISITADOS RECENTEMENTE</h2>
+                    <ul class="tópicos__lista">
+                        <li class="tópicos__item">
+                            <a href="#" class="tópicos__link">Originais</a>
+                        </li>
+                        <li class="tópicos__item">
+                            <a href="#" class="tópicos__link">heróis</a>
+                        </li>
+                        <li class="tópicos__item">
+                            <a href="#" class="tópicos__link">Frases</a>
+                        </li>
+                        <li class="tópicos__item">
+                            <a href="#" class="tópicos__link">Signos</a>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="contato">
+                    <div class="contato__descrição"></div>
+                        <h2 class="contato_titulo">Fique por dentro das Novidades</h2>
+                        <p class="contato_texto">Através do nosso Instagram você ficará por dentro de novos modelos, promoções e outros.</p>
+                    </div>
+                    <a href="#" class="contato_instagram">Instagram</a>
+                    <input type="email" placeholder="cadastre seu e-mail" class="contato_email">
+                </section>
+
+        <hr/>
+        <footer class="rodapé">
+            <h2 class="rodapé_titulo">Criado por Anne - contato: (xx) xxxxx-xxxx</h2>
+        </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+    const swiper = new Swiper( '.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+            el: '.swiper-pagination',
+            type:'bullets',
+        },
+    });
+</script>
+
+</body>
+</html>
+
+
+
+<!--Eleve seu estilo com nossas camisas
+Mantenha a calma e escolha Camisas que combinam com seu mood. -->
